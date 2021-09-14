@@ -15,11 +15,11 @@ class LoginController {
 
             if ($res == 'loggedIn') 
                 {
-                    include 'view/Home.php'
+                    include 'view/Home.php';
                 }
             else 
                 {
-                    include 'view/Login.php'
+                    include 'view/Login.php';
                 }
         }
 }
